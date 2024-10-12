@@ -1,0 +1,6 @@
+Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_serialization
+Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_serialization
+Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_serialization -- -j12 -l12
+Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_serialization -- -j12 -l12
+Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_serialization
+Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_serialization

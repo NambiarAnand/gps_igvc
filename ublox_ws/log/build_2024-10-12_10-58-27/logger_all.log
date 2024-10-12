@@ -1,0 +1,249 @@
+[0.168s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.168s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7991c70cf4f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7991c724bac0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7991c724bac0>>, mixin_verb=('build',))
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.251s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nambiar/ublox_ws'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nambiar/ublox_ws/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nambiar/ublox_ws/install/ublox_serialization', 'merge_install': False, 'path': '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nambiar/ublox_ws/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nambiar/ublox_ws/install/ublox_msgs', 'merge_install': False, 'path': '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nambiar/ublox_ws/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nambiar/ublox_ws/install/ublox_gps', 'merge_install': False, 'path': '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.341s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nambiar/ublox_ws/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nambiar/ublox_ws/install/ublox', 'merge_install': False, 'path': '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox', 'symlink_install': False, 'test_result_base': None}
+[0.341s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization'
+[0.347s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_serialization
+[1.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_serialization
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_serialization -- -j12 -l12
+[1.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_serialization -- -j12 -l12
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_serialization
+[1.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[1.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_serialization
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization' for CMake module files
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization' for CMake config files
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/bin'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/lib/python3.10/site-packages'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/bin'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[1.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[1.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nambiar/ublox_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[1.695s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization' for CMake module files
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization' for CMake config files
+[1.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/bin'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/lib/python3.10/site-packages'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_serialization/bin'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.sh'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.bash'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[1.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nambiar/ublox_ws/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[1.701s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_msgs' with build type 'ament_cmake'
+[1.701s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_msgs'
+[1.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nambiar/ublox_ws/build/ublox_msgs': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_msgs -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_msgs
+[5.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nambiar/ublox_ws/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_msgs -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_msgs
+[5.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nambiar/ublox_ws/build/ublox_msgs': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_msgs -- -j12 -l12
+[22.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nambiar/ublox_ws/build/ublox_msgs' returned '2': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_msgs -- -j12 -l12
+[25.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[25.202s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_msgs' for CMake module files
+[25.202s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_msgs' for CMake config files
+[25.202s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_msgs/bin'
+[25.202s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[25.203s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_msgs/lib/python3.10/site-packages'
+[25.203s] Level 1:colcon.colcon_core.environment:checking '/home/nambiar/ublox_ws/install/ublox_msgs/bin'
+[25.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[25.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nambiar/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[25.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.sh'
+[25.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.bash'
+[25.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/nambiar/ublox_ws/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[25.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nambiar/ublox_ws/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[25.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[25.216s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.227s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.243s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nambiar/ublox_ws/install/local_setup.ps1'
+[25.244s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nambiar/ublox_ws/install/_local_setup_util_ps1.py'
+[25.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nambiar/ublox_ws/install/setup.ps1'
+[25.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nambiar/ublox_ws/install/local_setup.sh'
+[25.248s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nambiar/ublox_ws/install/_local_setup_util_sh.py'
+[25.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nambiar/ublox_ws/install/setup.sh'
+[25.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nambiar/ublox_ws/install/local_setup.bash'
+[25.250s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nambiar/ublox_ws/install/setup.bash'
+[25.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nambiar/ublox_ws/install/local_setup.zsh'
+[25.252s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nambiar/ublox_ws/install/setup.zsh'

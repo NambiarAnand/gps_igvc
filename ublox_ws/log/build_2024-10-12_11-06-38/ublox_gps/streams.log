@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/nambiar/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_gps
+[0.087s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.265s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.365s] -- Detecting CXX compile features - done
+[0.367s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.655s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[0.655s]   Could NOT find asio (missing: ASIO_INCLUDE_DIR)
+[0.655s] Call Stack (most recent call first):
+[0.655s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[0.655s]   cmake/Findasio.cmake:4 (find_package_handle_standard_args)
+[0.655s]   CMakeLists.txt:16 (find_package)
+[0.655s] 
+[0.656s] [0m
+[0.656s] -- Configuring incomplete, errors occurred!
+[0.656s] See also "/home/nambiar/ublox_ws/build/ublox_gps/CMakeFiles/CMakeOutput.log".
+[0.660s] Invoked command in '/home/nambiar/ublox_ws/build/ublox_gps' returned '1': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_gps

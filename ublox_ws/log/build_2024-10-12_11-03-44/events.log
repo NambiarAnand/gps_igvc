@@ -1,0 +1,439 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (ublox_serialization) JobQueued: {'identifier': 'ublox_serialization', 'dependencies': OrderedDict()}
+[0.000242] (ublox_msgs) JobQueued: {'identifier': 'ublox_msgs', 'dependencies': OrderedDict([('ublox_serialization', '/home/nambiar/ublox_ws/install/ublox_serialization')])}
+[0.000279] (ublox_gps) JobQueued: {'identifier': 'ublox_gps', 'dependencies': OrderedDict([('ublox_serialization', '/home/nambiar/ublox_ws/install/ublox_serialization'), ('ublox_msgs', '/home/nambiar/ublox_ws/install/ublox_msgs')])}
+[0.000310] (ublox) JobQueued: {'identifier': 'ublox', 'dependencies': OrderedDict([('ublox_serialization', '/home/nambiar/ublox_ws/install/ublox_serialization'), ('ublox_msgs', '/home/nambiar/ublox_ws/install/ublox_msgs'), ('ublox_gps', '/home/nambiar/ublox_ws/install/ublox_gps')])}
+[0.000361] (ublox_serialization) JobStarted: {'identifier': 'ublox_serialization'}
+[0.009951] (ublox_serialization) JobProgress: {'identifier': 'ublox_serialization', 'progress': 'cmake'}
+[0.011137] (ublox_serialization) JobProgress: {'identifier': 'ublox_serialization', 'progress': 'build'}
+[0.011304] (ublox_serialization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nambiar/ublox_ws/build/ublox_serialization', '--', '-j12', '-l12'], 'cwd': '/home/nambiar/ublox_ws/build/ublox_serialization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ParaView_TYPE', 'system'), ('LANGUAGE', 'en_IN:en'), ('WM_PROJECT', 'OpenFOAM'), ('FOAM_SITE_LIBBIN', '/opt/site/11/platforms/linux64GccDPInt32Opt/lib'), ('WM_DIR', '/opt/openfoam11/wmake'), ('USER', 'nambiar'), ('FOAM_SIGFPE', ''), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openfoam11/thirdparty/platforms/linux64Gcc/gperftools-svn/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib/openmpi-system:/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib/openmpi-system:/usr/lib/x86_64-linux-gnu/openmpi/lib:/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/lib:/opt/site/11/platforms/linux64GccDPInt32Opt/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib:/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib/dummy'), ('HOME', '/home/nambiar'), ('OLDPWD', '/home/nambiar'), ('DESKTOP_SESSION', 'ubuntu'), ('WM_PROJECT_DIR', '/opt/openfoam11'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('WM_ARCH_OPTION', '64'), ('FOAM_ETC', '/opt/openfoam11/etc'), ('WM_COMPILE_OPTION', 'Opt'), ('SYSTEMD_EXEC_PID', '1586'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('FOAM_EXT_LIBBIN', '/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib'), ('FOAM_SITE_APPBIN', '/opt/site/11/platforms/linux64GccDPInt32Opt/bin'), ('FOAM_USER_LIBBIN', '/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/lib'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nambiar'), ('FOAM_JOB_DIR', '/opt/jobControl'), ('WM_LINK_LANGUAGE', 'c++'), ('FOAM_APP', '/opt/openfoam11/applications'), ('WM_LDFLAGS', '-m64'), ('FOAM_MODULES', '/opt/openfoam11/applications/modules'), ('WM_CFLAGS', '-m64 -fPIC'), ('MPI_ARCH_PATH', '/usr/lib/x86_64-linux-gnu/openmpi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('WM_PRECISION_OPTION', 'DP'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nambiar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/nambiar/Desktop/test/gazebo_models/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('FOAM_MPI', 'openmpi-system'), ('WM_COMPILER_LIB_ARCH', '64'), ('PATH', '/opt/ros/humble/bin:/opt/openfoam11/thirdparty/platforms/linux64Gcc/gperftools-svn/bin:/opt/openfoam11/bin:/opt/openfoam11/wmake:/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/bin:/opt/site/11/platforms/linux64GccDPInt32Opt/bin:/opt/openfoam11/platforms/linux64GccDPInt32Opt/bin:/snap/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/nambiar/ardupilot/Tools/autotest:/home/nambiar/.local/bin'), ('SESSION_MANAGER', 'local/nambiar:@/tmp/.ICE-unix/1545,unix/nambiar:/tmp/.ICE-unix/1545'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/070e4f58_5156_4432_9354_b4b618d607ee'), ('FOAM_UTILITIES', '/opt/openfoam11/applications/utilities'), ('GNOME_SETUP_DISPLAY', ':1'), ('FOAM_SRC', '/opt/openfoam11/src'), ('WM_CXX', 'g++'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('FOAM_USER_APPBIN', '/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/bin'), ('WM_OPTIONS', 'linux64GccDPInt32Opt'), ('WM_PROJECT_VERSION', '11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('FOAM_SETTINGS', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3GX9U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('WM_ARCH', 'linux64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('FOAM_LIBBIN', '/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WM_THIRD_PARTY', 'ThirdParty'), ('WM_OSTYPE', 'POSIX'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('WM_CC', 'gcc'), ('MPI_BUFFER_SIZE', '20000000'), ('WM_COMPILER', 'Gcc'), ('WM_PROJECT_INST_DIR', '/opt'), ('WM_PROJECT_USER_DIR', '/home/nambiar/OpenFOAM/nambiar-11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nambiar/ublox_ws/build/ublox_serialization'), ('FOAM_TUTORIALS', '/opt/openfoam11/tutorials'), ('ParaView_VERSION', '5.10.0'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('WM_MPLIB', 'SYSTEMOPENMPI'), ('WM_LABEL_SIZE', '32'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('FOAM_RUN', '/home/nambiar/OpenFOAM/nambiar-11/run'), ('WM_THIRD_PARTY_DIR', '/opt/openfoam11/thirdparty'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('WM_LABEL_OPTION', 'Int32'), ('WM_CXXFLAGS', '-m64 -fPIC -std=c++0x'), ('FOAM_INST_DIR', '/opt'), ('FOAM_SOLVERS', '/opt/openfoam11/applications/solvers'), ('COLCON', '1'), ('FOAM_APPBIN', '/opt/openfoam11/platforms/linux64GccDPInt32Opt/bin'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064659] (ublox_serialization) CommandEnded: {'returncode': 0}
+[0.099074] (-) TimerEvent: {}
+[0.100622] (ublox_serialization) JobProgress: {'identifier': 'ublox_serialization', 'progress': 'install'}
+[0.112905] (ublox_serialization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nambiar/ublox_ws/build/ublox_serialization'], 'cwd': '/home/nambiar/ublox_ws/build/ublox_serialization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ParaView_TYPE', 'system'), ('LANGUAGE', 'en_IN:en'), ('WM_PROJECT', 'OpenFOAM'), ('FOAM_SITE_LIBBIN', '/opt/site/11/platforms/linux64GccDPInt32Opt/lib'), ('WM_DIR', '/opt/openfoam11/wmake'), ('USER', 'nambiar'), ('FOAM_SIGFPE', ''), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openfoam11/thirdparty/platforms/linux64Gcc/gperftools-svn/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib/openmpi-system:/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib/openmpi-system:/usr/lib/x86_64-linux-gnu/openmpi/lib:/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/lib:/opt/site/11/platforms/linux64GccDPInt32Opt/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib:/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib/dummy'), ('HOME', '/home/nambiar'), ('OLDPWD', '/home/nambiar'), ('DESKTOP_SESSION', 'ubuntu'), ('WM_PROJECT_DIR', '/opt/openfoam11'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('WM_ARCH_OPTION', '64'), ('FOAM_ETC', '/opt/openfoam11/etc'), ('WM_COMPILE_OPTION', 'Opt'), ('SYSTEMD_EXEC_PID', '1586'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('FOAM_EXT_LIBBIN', '/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib'), ('FOAM_SITE_APPBIN', '/opt/site/11/platforms/linux64GccDPInt32Opt/bin'), ('FOAM_USER_LIBBIN', '/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/lib'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nambiar'), ('FOAM_JOB_DIR', '/opt/jobControl'), ('WM_LINK_LANGUAGE', 'c++'), ('FOAM_APP', '/opt/openfoam11/applications'), ('WM_LDFLAGS', '-m64'), ('FOAM_MODULES', '/opt/openfoam11/applications/modules'), ('WM_CFLAGS', '-m64 -fPIC'), ('MPI_ARCH_PATH', '/usr/lib/x86_64-linux-gnu/openmpi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('WM_PRECISION_OPTION', 'DP'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nambiar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/nambiar/Desktop/test/gazebo_models/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('FOAM_MPI', 'openmpi-system'), ('WM_COMPILER_LIB_ARCH', '64'), ('PATH', '/opt/ros/humble/bin:/opt/openfoam11/thirdparty/platforms/linux64Gcc/gperftools-svn/bin:/opt/openfoam11/bin:/opt/openfoam11/wmake:/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/bin:/opt/site/11/platforms/linux64GccDPInt32Opt/bin:/opt/openfoam11/platforms/linux64GccDPInt32Opt/bin:/snap/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/nambiar/ardupilot/Tools/autotest:/home/nambiar/.local/bin'), ('SESSION_MANAGER', 'local/nambiar:@/tmp/.ICE-unix/1545,unix/nambiar:/tmp/.ICE-unix/1545'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/070e4f58_5156_4432_9354_b4b618d607ee'), ('FOAM_UTILITIES', '/opt/openfoam11/applications/utilities'), ('GNOME_SETUP_DISPLAY', ':1'), ('FOAM_SRC', '/opt/openfoam11/src'), ('WM_CXX', 'g++'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('FOAM_USER_APPBIN', '/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/bin'), ('WM_OPTIONS', 'linux64GccDPInt32Opt'), ('WM_PROJECT_VERSION', '11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('FOAM_SETTINGS', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3GX9U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('WM_ARCH', 'linux64'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('FOAM_LIBBIN', '/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WM_THIRD_PARTY', 'ThirdParty'), ('WM_OSTYPE', 'POSIX'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('WM_CC', 'gcc'), ('MPI_BUFFER_SIZE', '20000000'), ('WM_COMPILER', 'Gcc'), ('WM_PROJECT_INST_DIR', '/opt'), ('WM_PROJECT_USER_DIR', '/home/nambiar/OpenFOAM/nambiar-11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nambiar/ublox_ws/build/ublox_serialization'), ('FOAM_TUTORIALS', '/opt/openfoam11/tutorials'), ('ParaView_VERSION', '5.10.0'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('WM_MPLIB', 'SYSTEMOPENMPI'), ('WM_LABEL_SIZE', '32'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('FOAM_RUN', '/home/nambiar/OpenFOAM/nambiar-11/run'), ('WM_THIRD_PARTY_DIR', '/opt/openfoam11/thirdparty'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('WM_LABEL_OPTION', 'Int32'), ('WM_CXXFLAGS', '-m64 -fPIC -std=c++0x'), ('FOAM_INST_DIR', '/opt'), ('FOAM_SOLVERS', '/opt/openfoam11/applications/solvers'), ('COLCON', '1'), ('FOAM_APPBIN', '/opt/openfoam11/platforms/linux64GccDPInt32Opt/bin'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.122748] (ublox_serialization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.123018] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/include\n'}
+[0.123156] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/include/ublox_serialization\n'}
+[0.123241] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/include/ublox_serialization/serialization.hpp\n'}
+[0.123332] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/include/ublox_serialization/checksum.hpp\n'}
+[0.123419] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization\n'}
+[0.123493] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization\n'}
+[0.123637] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh\n'}
+[0.123708] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv\n'}
+[0.123781] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/path.sh\n'}
+[0.123853] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/path.dsv\n'}
+[0.124010] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.bash\n'}
+[0.124081] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.sh\n'}
+[0.124147] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.zsh\n'}
+[0.124211] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.dsv\n'}
+[0.124279] (ublox_serialization) StdoutLine: {'line': b'-- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.dsv\n'}
+[0.124343] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization\n'}
+[0.124406] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.124468] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake\n'}
+[0.124531] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake\n'}
+[0.124594] (ublox_serialization) StdoutLine: {'line': b'-- Up-to-date: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.xml\n'}
+[0.126497] (ublox_serialization) CommandEnded: {'returncode': 0}
+[0.181517] (ublox_serialization) JobEnded: {'identifier': 'ublox_serialization', 'rc': 0}
+[0.182331] (ublox_msgs) JobStarted: {'identifier': 'ublox_msgs'}
+[0.189754] (ublox_msgs) JobProgress: {'identifier': 'ublox_msgs', 'progress': 'cmake'}
+[0.190464] (ublox_msgs) JobProgress: {'identifier': 'ublox_msgs', 'progress': 'build'}
+[0.191456] (ublox_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nambiar/ublox_ws/build/ublox_msgs', '--', '-j12', '-l12'], 'cwd': '/home/nambiar/ublox_ws/build/ublox_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ParaView_TYPE', 'system'), ('LANGUAGE', 'en_IN:en'), ('WM_PROJECT', 'OpenFOAM'), ('FOAM_SITE_LIBBIN', '/opt/site/11/platforms/linux64GccDPInt32Opt/lib'), ('WM_DIR', '/opt/openfoam11/wmake'), ('USER', 'nambiar'), ('FOAM_SIGFPE', ''), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openfoam11/thirdparty/platforms/linux64Gcc/gperftools-svn/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib/openmpi-system:/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib/openmpi-system:/usr/lib/x86_64-linux-gnu/openmpi/lib:/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/lib:/opt/site/11/platforms/linux64GccDPInt32Opt/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib:/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib:/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib/dummy'), ('HOME', '/home/nambiar'), ('OLDPWD', '/home/nambiar'), ('DESKTOP_SESSION', 'ubuntu'), ('WM_PROJECT_DIR', '/opt/openfoam11'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('WM_ARCH_OPTION', '64'), ('FOAM_ETC', '/opt/openfoam11/etc'), ('WM_COMPILE_OPTION', 'Opt'), ('SYSTEMD_EXEC_PID', '1586'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('FOAM_EXT_LIBBIN', '/opt/openfoam11/thirdparty/platforms/linux64GccDPInt32/lib'), ('FOAM_SITE_APPBIN', '/opt/site/11/platforms/linux64GccDPInt32Opt/bin'), ('FOAM_USER_LIBBIN', '/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/lib'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nambiar'), ('FOAM_JOB_DIR', '/opt/jobControl'), ('WM_LINK_LANGUAGE', 'c++'), ('FOAM_APP', '/opt/openfoam11/applications'), ('WM_LDFLAGS', '-m64'), ('FOAM_MODULES', '/opt/openfoam11/applications/modules'), ('WM_CFLAGS', '-m64 -fPIC'), ('MPI_ARCH_PATH', '/usr/lib/x86_64-linux-gnu/openmpi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('WM_PRECISION_OPTION', 'DP'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nambiar'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/nambiar/Desktop/test/gazebo_models/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('FOAM_MPI', 'openmpi-system'), ('WM_COMPILER_LIB_ARCH', '64'), ('PATH', '/opt/ros/humble/bin:/opt/openfoam11/thirdparty/platforms/linux64Gcc/gperftools-svn/bin:/opt/openfoam11/bin:/opt/openfoam11/wmake:/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/bin:/opt/site/11/platforms/linux64GccDPInt32Opt/bin:/opt/openfoam11/platforms/linux64GccDPInt32Opt/bin:/snap/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/nambiar/ardupilot/Tools/autotest:/home/nambiar/.local/bin'), ('SESSION_MANAGER', 'local/nambiar:@/tmp/.ICE-unix/1545,unix/nambiar:/tmp/.ICE-unix/1545'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/070e4f58_5156_4432_9354_b4b618d607ee'), ('FOAM_UTILITIES', '/opt/openfoam11/applications/utilities'), ('GNOME_SETUP_DISPLAY', ':1'), ('FOAM_SRC', '/opt/openfoam11/src'), ('WM_CXX', 'g++'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('FOAM_USER_APPBIN', '/home/nambiar/OpenFOAM/nambiar-11/platforms/linux64GccDPInt32Opt/bin'), ('WM_OPTIONS', 'linux64GccDPInt32Opt'), ('WM_PROJECT_VERSION', '11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('FOAM_SETTINGS', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3GX9U2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.151'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('WM_ARCH', 'linux64'), ('AMENT_PREFIX_PATH', '/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('FOAM_LIBBIN', '/opt/openfoam11/platforms/linux64GccDPInt32Opt/lib'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WM_THIRD_PARTY', 'ThirdParty'), ('WM_OSTYPE', 'POSIX'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('WM_CC', 'gcc'), ('MPI_BUFFER_SIZE', '20000000'), ('WM_COMPILER', 'Gcc'), ('WM_PROJECT_INST_DIR', '/opt'), ('WM_PROJECT_USER_DIR', '/home/nambiar/OpenFOAM/nambiar-11'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nambiar/ublox_ws/build/ublox_msgs'), ('FOAM_TUTORIALS', '/opt/openfoam11/tutorials'), ('ParaView_VERSION', '5.10.0'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('WM_MPLIB', 'SYSTEMOPENMPI'), ('WM_LABEL_SIZE', '32'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('FOAM_RUN', '/home/nambiar/OpenFOAM/nambiar-11/run'), ('WM_THIRD_PARTY_DIR', '/opt/openfoam11/thirdparty'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('WM_LABEL_OPTION', 'Int32'), ('WM_CXXFLAGS', '-m64 -fPIC -std=c++0x'), ('FOAM_INST_DIR', '/opt'), ('FOAM_SOLVERS', '/opt/openfoam11/applications/solvers'), ('COLCON', '1'), ('FOAM_APPBIN', '/opt/openfoam11/platforms/linux64GccDPInt32Opt/bin'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble')]), 'shell': False}
+[0.199175] (-) TimerEvent: {}
+[0.299451] (-) TimerEvent: {}
+[0.326053] (ublox_msgs) StdoutLine: {'line': b'[  0%] Built target ublox_msgs__cpp\n'}
+[0.328625] (ublox_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_ublox_msgs\n'}
+[0.342740] (ublox_msgs) StdoutLine: {'line': b'[ 12%] Built target ublox_msgs__rosidl_generator_c\n'}
+[0.361172] (ublox_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ublox_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.362213] (ublox_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ublox_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.368715] (ublox_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ublox_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.369673] (ublox_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ublox_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.371164] (ublox_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ublox_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.393888] (ublox_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ublox_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.397481] (ublox_msgs) StdoutLine: {'line': b'[ 25%] Built target ublox_msgs__rosidl_typesupport_c\n'}
+[0.399530] (-) TimerEvent: {}
+[0.408987] (ublox_msgs) StdoutLine: {'line': b'[ 38%] Built target ublox_msgs__rosidl_typesupport_introspection_c\n'}
+[0.424396] (ublox_msgs) StdoutLine: {'line': b'[ 50%] Built target ublox_msgs__rosidl_typesupport_cpp\n'}
+[0.431082] (ublox_msgs) StdoutLine: {'line': b'[ 62%] Built target ublox_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.464577] (ublox_msgs) StdoutLine: {'line': b'[ 74%] Built target ublox_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.479625] (ublox_msgs) StdoutLine: {'line': b'[ 87%] Built target ublox_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.499646] (-) TimerEvent: {}
+[0.508911] (ublox_msgs) StdoutLine: {'line': b'[ 87%] Built target ublox_msgs\n'}
+[0.538445] (ublox_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/ublox_msgs_lib.dir/src/ublox_msgs.cpp.o\x1b[0m\n'}
+[0.540535] (ublox_msgs) StdoutLine: {'line': b'[ 87%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.599749] (-) TimerEvent: {}
+[0.603112] (ublox_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.624140] (ublox_msgs) StdoutLine: {'line': b'writing ublox_msgs.egg-info/PKG-INFO\n'}
+[0.624743] (ublox_msgs) StdoutLine: {'line': b'writing dependency_links to ublox_msgs.egg-info/dependency_links.txt\n'}
+[0.625245] (ublox_msgs) StdoutLine: {'line': b'writing top-level names to ublox_msgs.egg-info/top_level.txt\n'}
+[0.686468] (ublox_msgs) StdoutLine: {'line': b"reading manifest file 'ublox_msgs.egg-info/SOURCES.txt'\n"}
+[0.699842] (-) TimerEvent: {}
+[0.705002] (ublox_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.705446] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/ublox_ws/build/ublox_msgs/ament_cmake_python/ublox_msgs/setup.py", line 4, in <module>\n'}
+[0.705602] (ublox_msgs) StderrLine: {'line': b'    setup(\n'}
+[0.705718] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[0.705845] (ublox_msgs) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[0.706077] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[0.706266] (ublox_msgs) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[0.706383] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[0.706548] (ublox_msgs) StderrLine: {'line': b'    dist.run_commands()\n'}
+[0.706686] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[0.706814] (ublox_msgs) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[0.707023] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/dist.py", line 950, in run_command\n'}
+[0.707122] (ublox_msgs) StderrLine: {'line': b'    super().run_command(command)\n'}
+[0.707208] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[0.707292] (ublox_msgs) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[0.707373] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 311, in run\n'}
+[0.707474] (ublox_msgs) StderrLine: {'line': b'    self.find_sources()\n'}
+[0.707556] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 319, in find_sources\n'}
+[0.707639] (ublox_msgs) StderrLine: {'line': b'    mm.run()\n'}
+[0.707725] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 545, in run\n'}
+[0.707804] (ublox_msgs) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[0.707895] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list\n'}
+[0.708005] (ublox_msgs) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[0.708085] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[0.708170] (ublox_msgs) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[0.708258] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[0.708363] (ublox_msgs) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[0.708463] (ublox_msgs) StderrLine: {'line': b'  File "/home/nambiar/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[0.708554] (ublox_msgs) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[0.708671] (ublox_msgs) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[0.735666] (ublox_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_ublox_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_ublox_msgs_egg] Error 1\n'}
+[0.736004] (ublox_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:449: CMakeFiles/ament_cmake_python_build_ublox_msgs_egg.dir/all] Error 2\n'}
+[0.736139] (ublox_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.799939] (-) TimerEvent: {}
+[0.900229] (-) TimerEvent: {}
+[1.000519] (-) TimerEvent: {}
+[1.100810] (-) TimerEvent: {}
+[1.201114] (-) TimerEvent: {}
+[1.301421] (-) TimerEvent: {}
+[1.401737] (-) TimerEvent: {}
+[1.502058] (-) TimerEvent: {}
+[1.602371] (-) TimerEvent: {}
+[1.702694] (-) TimerEvent: {}
+[1.803019] (-) TimerEvent: {}
+[1.903350] (-) TimerEvent: {}
+[2.003656] (-) TimerEvent: {}
+[2.103943] (-) TimerEvent: {}
+[2.204234] (-) TimerEvent: {}
+[2.304538] (-) TimerEvent: {}
+[2.404819] (-) TimerEvent: {}
+[2.505120] (-) TimerEvent: {}
+[2.605925] (-) TimerEvent: {}
+[2.706234] (-) TimerEvent: {}
+[2.806525] (-) TimerEvent: {}
+[2.906817] (-) TimerEvent: {}
+[3.007133] (-) TimerEvent: {}
+[3.025816] (ublox_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library libublox_msgs_lib.so\x1b[0m\n'}
+[3.107234] (-) TimerEvent: {}
+[3.142090] (ublox_msgs) StdoutLine: {'line': b'[ 88%] Built target ublox_msgs_lib\n'}
+[3.207332] (-) TimerEvent: {}
+[3.307599] (-) TimerEvent: {}
+[3.407843] (-) TimerEvent: {}
+[3.508097] (-) TimerEvent: {}
+[3.608362] (-) TimerEvent: {}
+[3.708672] (-) TimerEvent: {}
+[3.808947] (-) TimerEvent: {}
+[3.909201] (-) TimerEvent: {}
+[4.009442] (-) TimerEvent: {}
+[4.109690] (-) TimerEvent: {}
+[4.209941] (-) TimerEvent: {}
+[4.310183] (-) TimerEvent: {}
+[4.410449] (-) TimerEvent: {}
+[4.510755] (-) TimerEvent: {}
+[4.611020] (-) TimerEvent: {}
+[4.711280] (-) TimerEvent: {}
+[4.811510] (-) TimerEvent: {}
+[4.911739] (-) TimerEvent: {}
+[5.011993] (-) TimerEvent: {}
+[5.112244] (-) TimerEvent: {}
+[5.212530] (-) TimerEvent: {}
+[5.312796] (-) TimerEvent: {}
+[5.413071] (-) TimerEvent: {}
+[5.513344] (-) TimerEvent: {}
+[5.613581] (-) TimerEvent: {}
+[5.713819] (-) TimerEvent: {}
+[5.814085] (-) TimerEvent: {}
+[5.914379] (-) TimerEvent: {}
+[6.014644] (-) TimerEvent: {}
+[6.114898] (-) TimerEvent: {}
+[6.215131] (-) TimerEvent: {}
+[6.315374] (-) TimerEvent: {}
+[6.415610] (-) TimerEvent: {}
+[6.515890] (-) TimerEvent: {}
+[6.616182] (-) TimerEvent: {}
+[6.716471] (-) TimerEvent: {}
+[6.816748] (-) TimerEvent: {}
+[6.917022] (-) TimerEvent: {}
+[7.017263] (-) TimerEvent: {}
+[7.117499] (-) TimerEvent: {}
+[7.217743] (-) TimerEvent: {}
+[7.318019] (-) TimerEvent: {}
+[7.418309] (-) TimerEvent: {}
+[7.518589] (-) TimerEvent: {}
+[7.618823] (-) TimerEvent: {}
+[7.719066] (-) TimerEvent: {}
+[7.819303] (-) TimerEvent: {}
+[7.919535] (-) TimerEvent: {}
+[8.019768] (-) TimerEvent: {}
+[8.120040] (-) TimerEvent: {}
+[8.220329] (-) TimerEvent: {}
+[8.320595] (-) TimerEvent: {}
+[8.420843] (-) TimerEvent: {}
+[8.521121] (-) TimerEvent: {}
+[8.621418] (-) TimerEvent: {}
+[8.721670] (-) TimerEvent: {}
+[8.821922] (-) TimerEvent: {}
+[8.922189] (-) TimerEvent: {}
+[9.022453] (-) TimerEvent: {}
+[9.122686] (-) TimerEvent: {}
+[9.222988] (-) TimerEvent: {}
+[9.323219] (-) TimerEvent: {}
+[9.423447] (-) TimerEvent: {}
+[9.523679] (-) TimerEvent: {}
+[9.623925] (-) TimerEvent: {}
+[9.724198] (-) TimerEvent: {}
+[9.824493] (-) TimerEvent: {}
+[9.924756] (-) TimerEvent: {}
+[10.025022] (-) TimerEvent: {}
+[10.125242] (-) TimerEvent: {}
+[10.225492] (-) TimerEvent: {}
+[10.325715] (-) TimerEvent: {}
+[10.425945] (-) TimerEvent: {}
+[10.526222] (-) TimerEvent: {}
+[10.626481] (-) TimerEvent: {}
+[10.726697] (-) TimerEvent: {}
+[10.826897] (-) TimerEvent: {}
+[10.927100] (-) TimerEvent: {}
+[11.027295] (-) TimerEvent: {}
+[11.127514] (-) TimerEvent: {}
+[11.227746] (-) TimerEvent: {}
+[11.327955] (-) TimerEvent: {}
+[11.428154] (-) TimerEvent: {}
+[11.528353] (-) TimerEvent: {}
+[11.628556] (-) TimerEvent: {}
+[11.728769] (-) TimerEvent: {}
+[11.828995] (-) TimerEvent: {}
+[11.929191] (-) TimerEvent: {}
+[12.029370] (-) TimerEvent: {}
+[12.129554] (-) TimerEvent: {}
+[12.229733] (-) TimerEvent: {}
+[12.330246] (-) TimerEvent: {}
+[12.430465] (-) TimerEvent: {}
+[12.530692] (-) TimerEvent: {}
+[12.630886] (-) TimerEvent: {}
+[12.731077] (-) TimerEvent: {}
+[12.831286] (-) TimerEvent: {}
+[12.931524] (-) TimerEvent: {}
+[13.031729] (-) TimerEvent: {}
+[13.131933] (-) TimerEvent: {}
+[13.232129] (-) TimerEvent: {}
+[13.332346] (-) TimerEvent: {}
+[13.432589] (-) TimerEvent: {}
+[13.532827] (-) TimerEvent: {}
+[13.633073] (-) TimerEvent: {}
+[13.733311] (-) TimerEvent: {}
+[13.833536] (-) TimerEvent: {}
+[13.933829] (-) TimerEvent: {}
+[14.034055] (-) TimerEvent: {}
+[14.134268] (-) TimerEvent: {}
+[14.234572] (-) TimerEvent: {}
+[14.334808] (-) TimerEvent: {}
+[14.435069] (-) TimerEvent: {}
+[14.535313] (-) TimerEvent: {}
+[14.635510] (-) TimerEvent: {}
+[14.735719] (-) TimerEvent: {}
+[14.835974] (-) TimerEvent: {}
+[14.936192] (-) TimerEvent: {}
+[15.036396] (-) TimerEvent: {}
+[15.136591] (-) TimerEvent: {}
+[15.236790] (-) TimerEvent: {}
+[15.337018] (-) TimerEvent: {}
+[15.437251] (-) TimerEvent: {}
+[15.537484] (-) TimerEvent: {}
+[15.637689] (-) TimerEvent: {}
+[15.737891] (-) TimerEvent: {}
+[15.838094] (-) TimerEvent: {}
+[15.938311] (-) TimerEvent: {}
+[16.038540] (-) TimerEvent: {}
+[16.138742] (-) TimerEvent: {}
+[16.238942] (-) TimerEvent: {}
+[16.339154] (-) TimerEvent: {}
+[16.439369] (-) TimerEvent: {}
+[16.539605] (-) TimerEvent: {}
+[16.639832] (-) TimerEvent: {}
+[16.740050] (-) TimerEvent: {}
+[16.840236] (-) TimerEvent: {}
+[16.940428] (-) TimerEvent: {}
+[17.040635] (-) TimerEvent: {}
+[17.140868] (-) TimerEvent: {}
+[17.241076] (-) TimerEvent: {}
+[17.341279] (-) TimerEvent: {}
+[17.441470] (-) TimerEvent: {}
+[17.541668] (-) TimerEvent: {}
+[17.642017] (-) TimerEvent: {}
+[17.742306] (-) TimerEvent: {}
+[17.842515] (-) TimerEvent: {}
+[17.942712] (-) TimerEvent: {}
+[18.042900] (-) TimerEvent: {}
+[18.143082] (-) TimerEvent: {}
+[18.243278] (-) TimerEvent: {}
+[18.343488] (-) TimerEvent: {}
+[18.443701] (-) TimerEvent: {}
+[18.543917] (-) TimerEvent: {}
+[18.644141] (-) TimerEvent: {}
+[18.744359] (-) TimerEvent: {}
+[18.844596] (-) TimerEvent: {}
+[18.944798] (-) TimerEvent: {}
+[19.044996] (-) TimerEvent: {}
+[19.145202] (-) TimerEvent: {}
+[19.245417] (-) TimerEvent: {}
+[19.345609] (-) TimerEvent: {}
+[19.445792] (-) TimerEvent: {}
+[19.546016] (-) TimerEvent: {}
+[19.646234] (-) TimerEvent: {}
+[19.746436] (-) TimerEvent: {}
+[19.846629] (-) TimerEvent: {}
+[19.946832] (-) TimerEvent: {}
+[20.047063] (-) TimerEvent: {}
+[20.147263] (-) TimerEvent: {}
+[20.247447] (-) TimerEvent: {}
+[20.347647] (-) TimerEvent: {}
+[20.447892] (-) TimerEvent: {}
+[20.548144] (-) TimerEvent: {}
+[20.648343] (-) TimerEvent: {}
+[20.748546] (-) TimerEvent: {}
+[20.848754] (-) TimerEvent: {}
+[20.948989] (-) TimerEvent: {}
+[21.049199] (-) TimerEvent: {}
+[21.149397] (-) TimerEvent: {}
+[21.249601] (-) TimerEvent: {}
+[21.349881] (-) TimerEvent: {}
+[21.450101] (-) TimerEvent: {}
+[21.550316] (-) TimerEvent: {}
+[21.650533] (-) TimerEvent: {}
+[21.750775] (-) TimerEvent: {}
+[21.851013] (-) TimerEvent: {}
+[21.951231] (-) TimerEvent: {}
+[22.051456] (-) TimerEvent: {}
+[22.151691] (-) TimerEvent: {}
+[22.251988] (-) TimerEvent: {}
+[22.352192] (-) TimerEvent: {}
+[22.452421] (-) TimerEvent: {}
+[22.552671] (-) TimerEvent: {}
+[22.652892] (-) TimerEvent: {}
+[22.753083] (-) TimerEvent: {}
+[22.853283] (-) TimerEvent: {}
+[22.953518] (-) TimerEvent: {}
+[23.053716] (-) TimerEvent: {}
+[23.153912] (-) TimerEvent: {}
+[23.254102] (-) TimerEvent: {}
+[23.354328] (-) TimerEvent: {}
+[23.454590] (-) TimerEvent: {}
+[23.554813] (-) TimerEvent: {}
+[23.655037] (-) TimerEvent: {}
+[23.755261] (-) TimerEvent: {}
+[23.855513] (-) TimerEvent: {}
+[23.955731] (-) TimerEvent: {}
+[24.055937] (-) TimerEvent: {}
+[24.156154] (-) TimerEvent: {}
+[24.256392] (-) TimerEvent: {}
+[24.356617] (-) TimerEvent: {}
+[24.456826] (-) TimerEvent: {}
+[24.557043] (-) TimerEvent: {}
+[24.657255] (-) TimerEvent: {}
+[24.757492] (-) TimerEvent: {}
+[24.857685] (-) TimerEvent: {}
+[24.957884] (-) TimerEvent: {}
+[25.058104] (-) TimerEvent: {}
+[25.158340] (-) TimerEvent: {}
+[25.258553] (-) TimerEvent: {}
+[25.358796] (-) TimerEvent: {}
+[25.459014] (-) TimerEvent: {}
+[25.559261] (-) TimerEvent: {}
+[25.659485] (-) TimerEvent: {}
+[25.759704] (-) TimerEvent: {}
+[25.860235] (-) TimerEvent: {}
+[25.960487] (-) TimerEvent: {}
+[26.060724] (-) TimerEvent: {}
+[26.160957] (-) TimerEvent: {}
+[26.261200] (-) TimerEvent: {}
+[26.361434] (-) TimerEvent: {}
+[26.461689] (-) TimerEvent: {}
+[26.561921] (-) TimerEvent: {}
+[26.662137] (-) TimerEvent: {}
+[26.762364] (-) TimerEvent: {}
+[26.862611] (-) TimerEvent: {}
+[26.962839] (-) TimerEvent: {}
+[27.063047] (-) TimerEvent: {}
+[27.163269] (-) TimerEvent: {}
+[27.263519] (-) TimerEvent: {}
+[27.363757] (-) TimerEvent: {}
+[27.463977] (-) TimerEvent: {}
+[27.564176] (-) TimerEvent: {}
+[27.664388] (-) TimerEvent: {}
+[27.764630] (-) TimerEvent: {}
+[27.864842] (-) TimerEvent: {}
+[27.965073] (-) TimerEvent: {}
+[28.065288] (-) TimerEvent: {}
+[28.165507] (-) TimerEvent: {}
+[28.265745] (-) TimerEvent: {}
+[28.365975] (-) TimerEvent: {}
+[28.466181] (-) TimerEvent: {}
+[28.566411] (-) TimerEvent: {}
+[28.666643] (-) TimerEvent: {}
+[28.766836] (-) TimerEvent: {}
+[28.867049] (-) TimerEvent: {}
+[28.967271] (-) TimerEvent: {}
+[29.067499] (-) TimerEvent: {}
+[29.167697] (-) TimerEvent: {}
+[29.267890] (-) TimerEvent: {}
+[29.368111] (-) TimerEvent: {}
+[29.468361] (-) TimerEvent: {}
+[29.568587] (-) TimerEvent: {}
+[29.668776] (-) TimerEvent: {}
+[29.768991] (-) TimerEvent: {}
+[29.869226] (-) TimerEvent: {}
+[29.969455] (-) TimerEvent: {}
+[30.069659] (-) TimerEvent: {}
+[30.169878] (-) TimerEvent: {}
+[30.270097] (-) TimerEvent: {}
+[30.370260] (-) TimerEvent: {}
+[30.470435] (-) TimerEvent: {}
+[30.570615] (-) TimerEvent: {}
+[30.670771] (-) TimerEvent: {}
+[30.770926] (-) TimerEvent: {}
+[30.873943] (-) TimerEvent: {}
+[30.974301] (-) TimerEvent: {}
+[30.990651] (ublox_msgs) StdoutLine: {'line': b'[ 88%] Built target ublox_msgs__py\n'}
+[30.991730] (ublox_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[30.994569] (ublox_msgs) CommandEnded: {'returncode': 2}
+[31.074385] (-) TimerEvent: {}
+[31.174612] (-) TimerEvent: {}
+[31.274826] (-) TimerEvent: {}
+[31.375051] (-) TimerEvent: {}
+[31.475266] (-) TimerEvent: {}
+[31.575480] (-) TimerEvent: {}
+[31.675732] (-) TimerEvent: {}
+[31.776065] (-) TimerEvent: {}
+[31.876280] (-) TimerEvent: {}
+[31.976576] (-) TimerEvent: {}
+[32.076904] (-) TimerEvent: {}
+[32.177145] (-) TimerEvent: {}
+[32.277421] (-) TimerEvent: {}
+[32.377734] (-) TimerEvent: {}
+[32.478052] (-) TimerEvent: {}
+[32.578360] (-) TimerEvent: {}
+[32.678610] (-) TimerEvent: {}
+[32.778873] (-) TimerEvent: {}
+[32.879118] (-) TimerEvent: {}
+[32.979372] (-) TimerEvent: {}
+[33.079601] (-) TimerEvent: {}
+[33.179872] (-) TimerEvent: {}
+[33.280217] (-) TimerEvent: {}
+[33.380465] (-) TimerEvent: {}
+[33.480707] (-) TimerEvent: {}
+[33.578506] (ublox_msgs) JobEnded: {'identifier': 'ublox_msgs', 'rc': 2}
+[33.580793] (-) TimerEvent: {}
+[33.589477] (ublox_gps) JobSkipped: {'identifier': 'ublox_gps'}
+[33.589739] (ublox) JobSkipped: {'identifier': 'ublox'}
+[33.589821] (-) EventReactorShutdown: {}

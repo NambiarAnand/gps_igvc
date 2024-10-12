@@ -1,0 +1,44 @@
+[0.015s] Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_serialization
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.320s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.528s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.537s] -- Detecting CXX compile features - done
+[0.542s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.979s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.165s] -- Configuring done
+[1.169s] -- Generating done
+[1.170s] -- Build files have been written to: /home/nambiar/ublox_ws/build/ublox_serialization
+[1.177s] Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_serialization
+[1.178s] Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_serialization -- -j12 -l12
+[1.229s] Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_serialization -- -j12 -l12
+[1.281s] Invoking command in '/home/nambiar/ublox_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_serialization
+[1.290s] -- Install configuration: ""
+[1.290s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/include
+[1.290s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/include/ublox_serialization
+[1.290s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/include/ublox_serialization/serialization.hpp
+[1.290s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/include/ublox_serialization/checksum.hpp
+[1.291s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[1.291s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[1.291s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[1.292s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[1.292s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[1.292s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[1.292s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[1.293s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[1.293s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[1.293s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[1.293s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.dsv
+[1.293s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[1.294s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.294s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[1.294s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[1.294s] -- Installing: /home/nambiar/ublox_ws/install/ublox_serialization/share/ublox_serialization/package.xml
+[1.297s] Invoked command in '/home/nambiar/ublox_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_serialization

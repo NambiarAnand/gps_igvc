@@ -1,0 +1,113 @@
+[0.013s] Invoking command in '/home/nambiar/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_gps
+[0.027s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.170s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.200s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.338s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.342s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.486s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.527s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.589s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.603s] -- Looking for pthread.h
+[0.723s] -- Looking for pthread.h - found
+[0.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.845s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.847s] -- Found Threads: TRUE  
+[0.904s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.919s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.961s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.982s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.987s] -- Found ublox_msgs: 2.2.0 (/home/nambiar/ublox_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+[1.085s] -- Configuring done
+[1.110s] -- Generating done
+[1.112s] -- Build files have been written to: /home/nambiar/ublox_ws/build/ublox_gps
+[1.122s] Invoked command in '/home/nambiar/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nambiar/ublox_ws/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/nambiar/ublox_ws/install/ublox_gps
+[1.124s] Invoking command in '/home/nambiar/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_gps -- -j12 -l12
+[1.199s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[1.199s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/logger_node_pa.cpp.o[0m
+[1.199s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[1.199s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/raw_data_pa.cpp.o[0m
+[1.199s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[1.199s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[1.199s] [ 31%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[1.199s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[1.200s] [ 40%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[1.200s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[1.200s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[1.200s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[1.314s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[1.843s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[6.776s] [ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[12.666s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[14.092s] [ 77%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[14.120s] [ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[14.954s] [ 86%] [32m[1mLinking CXX executable ublox_logger[0m
+[15.384s] [ 86%] Built target ublox_logger_node
+[22.278s] [ 90%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[24.128s] [ 90%] Built target ublox_gps
+[24.149s] [ 95%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[28.839s] [100%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[29.344s] [100%] Built target ublox_gps_node
+[29.355s] Invoked command in '/home/nambiar/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nambiar/ublox_ws/build/ublox_gps -- -j12 -l12
+[29.441s] Invoking command in '/home/nambiar/ublox_ws/build/ublox_gps': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_gps
+[29.448s] -- Install configuration: ""
+[29.448s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/lib/libublox_gps.so
+[29.474s] -- Set runtime path of "/home/nambiar/ublox_ws/install/ublox_gps/lib/libublox_gps.so" to ""
+[29.475s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[29.475s] -- Set runtime path of "/home/nambiar/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+[29.475s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+[29.478s] -- Set runtime path of "/home/nambiar/ublox_ws/install/ublox_gps/lib/ublox_gps/ublox_logger" to ""
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/async_worker.hpp
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/node.hpp
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/rtcm.hpp
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+[29.479s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/component_interface.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/mkgmtime.h
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/gps.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/fts_product.hpp
+[29.480s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/callback.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/worker.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/gnss.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/tim_product.hpp
+[29.481s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/include/ublox_gps/utils.hpp
+[29.482s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/launch
+[29.482s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[29.486s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node_zedf9p-launch.py
+[29.487s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/config
+[29.487s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[29.488s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[29.488s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[29.488s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[29.488s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[29.489s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+[29.489s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[29.489s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+[29.489s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+[29.489s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[29.489s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[29.489s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/package.dsv
+[29.490s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[29.490s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[29.490s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[29.490s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[29.490s] -- Installing: /home/nambiar/ublox_ws/install/ublox_gps/share/ublox_gps/package.xml
+[29.493s] Invoked command in '/home/nambiar/ublox_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nambiar/ublox_ws/install/ublox_msgs:/home/nambiar/ublox_ws/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/nambiar/ublox_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nambiar/ublox_ws/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nambiar/ublox_ws/build/ublox_gps
